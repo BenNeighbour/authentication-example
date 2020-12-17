@@ -1,0 +1,15 @@
+POST http://localhost:9090/users/signup
+Content-Type: application/json
+
+{
+  "username": "ben",
+  "email": "benneighbour007@gmail.com",
+  "password": "ben",
+  "roles": [
+    "ROLE_ADMIN"
+  ]
+}
+
+###
+
+
